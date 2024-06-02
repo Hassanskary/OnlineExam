@@ -1,0 +1,10 @@
+﻿@using Online_Exam.Models
+@model PrintViewModel
+
+<h1>Exam Completed !</h1>
+
+@{
+    decimal grade = ViewBag.Grade; // Access the grade from ViewBag
+}
+
+<p>Your Grade is: @grade</p>
